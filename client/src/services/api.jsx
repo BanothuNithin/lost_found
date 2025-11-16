@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_BASE =
-  import.meta.env.VITE_API_BASE || "https://lost-found-y6cp.onrender.com";
+  import.meta.env.VITE_API_BASE || "https://lost-found-y6cp.onrender.com/api";
 
 const client = axios.create({
   baseURL: API_BASE,
